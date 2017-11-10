@@ -701,7 +701,7 @@ angular
 
           $(filteredArray).each(function(index2, message) {
             if (message.type.id === column.id) {
-              clipboard += '- ' + message.text + ' (' + message.votes + ' votes) \n';
+              clipboard += '- ' + message.text + '\n';
             }
           });
         });
